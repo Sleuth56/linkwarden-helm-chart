@@ -47,6 +47,7 @@ The following table lists the configurable parameters of the Linkwarden chart an
 | `postgres.database`                       | PostgreSQL database                                                         | `postgres`                                   |
 | `postgres.external.enabled`               | Enable external PostgreSQL                                                  | `false`                                      |
 | `postgres.external.uri`                   | External PostgreSQL URI                                                     | `""`                                         |
+| `secret.enabled`                          | Enable the auto-generated secret                                            | `true`                                       |
 | `serviceAccount.create`                   | Specifies whether a service account should be created                       | `true`                                       |
 | `serviceAccount.annotations`              | Annotations to add to the service account                                   | `{}`                                         |
 | `serviceAccount.name`                     | The name of the service account to use                                      | `""`                                         |
