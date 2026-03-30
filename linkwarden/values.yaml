@@ -86,6 +86,8 @@ persistence:
   storageClass: "standard"
   accessMode: ReadWriteOnce
   size: "1Gi"
+  labels:
+  #   key: value
 
 configuration:
   storageFolder: "/pfs"
