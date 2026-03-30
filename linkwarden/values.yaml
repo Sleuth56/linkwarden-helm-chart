@@ -20,6 +20,9 @@ postgres:
     enabled: false
     uri: ""
 
+secret:
+  enabled: true
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
